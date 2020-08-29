@@ -1,0 +1,60 @@
+body{
+    background: #ff9966;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #ff5e62, #ff9966);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+}
+
+.informacion{
+    font-family: 'Architects Daughter', cursive;
+}
+
+.color{
+    background: rgba(139, 207, 211, .1);
+    border-radius: 10%;
+    padding : 12px;
+    color: rgb(56, 13, 44);
+    font-weight: 800;
+
+    
+    }
+
+h1{
+
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Modak', cursive; 
+    color: rgba(38, 100, 82 , .7);
+    
+}
+
+.desma{
+    width: 700px;
+}
+
+.graffiti{
+    width: 1000px;
+    height: 500px;
+}
+
+.grupo{
+    display: flex;
+
+}
+@media (max-width:768px){
+    .desma{
+        width: 300px;
+        margin: auto;
+        display: block;
+    }
+    .grupo{
+        display: block;
+    
+    }
+}
+@media(max-width:768px) {
+    .graffiti{
+        width: 300px;
+        display: block;
+        margin: auto;
+    }
+}
